@@ -49,7 +49,7 @@ Initially, we extracted perfume reviews through web scraping. We then selected l
 
 #### Visualization
 - Tableau [Dashboard](https://public.tableau.com/app/profile/hayoung7844/viz/AustinAirbnbMarketOverview/Dashboard1) |  [Dashboard2](https://public.tableau.com/app/profile/hayoung7844/viz/AustinAirbnbChoroplethMaps/Dashboard2)
-![image](https://github.com/Hayoung-Zoe-Kim/Austin-Airbnb-Analysis/blob/main/Tableau_dashboard.png)
+![image](https://github.com/Hayoung-Zoe-Kim/Austin-Airbnb-Analysis/blob/main/Tableau_dashboard_.png)
 
 ![image](https://github.com/Hayoung-Zoe-Kim/Austin-Airbnb-Analysis/blob/main/Tableau_choropleth.png)
 
