@@ -30,6 +30,7 @@ Initially, we extracted perfume reviews through web scraping. We then selected l
   - Fill out as "No information entered" : description, neighborhood_overview, host_name, host_since, host_location, host_about, host_neighbourhood, host_has_profile_pic, host_identity_verified  
   - Fill with the median : bathrooms_text, bedrooms, beds, host_total_listings_count
   - Replace with the overall rating (review_scores_rating) : review_scores_accuracy, review_scores_cleanliness, review_scores_checkin,review_scores_communication, review_scores_location, review_scores_value
+  
 ![image](https://github.com/Hayoung-Zoe-Kim/Austin-Airbnb-Analysis/blob/main/dealing_with_missingvalues.png)
 
 [code]
