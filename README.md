@@ -19,41 +19,51 @@ Initially, we extracted perfume reviews through web scraping. We then selected l
 - Key Columns: Zip codes, room types, price, availability, superhost status, reviews
 
 ## Highlights of Analysis
-#### Data Cleaning
-- Drop the columns that are slightly off-topic from our analysis focus 
+#### Data Cleaning  
+- Drop the columns that are slightly off-topic from our analysis focus
+  
 ![image](https://github.com/Hayoung-Zoe-Kim/Austin-Airbnb-Analysis/blob/main/drop_columns.png)
 
 - Ensure that each column has the appropriate data type
+  
 ![image](https://github.com/Hayoung-Zoe-Kim/Austin-Airbnb-Analysis/blob/main/convert_data_type.png)
 
 - Dealing with missing values
   - Fill out as "No information entered" : description, neighborhood_overview, host_name, host_since, host_location, host_about, host_neighbourhood, host_has_profile_pic, host_identity_verified  
   - Fill with the median : bathrooms_text, bedrooms, beds, host_total_listings_count
   - Replace with the overall rating (review_scores_rating) : review_scores_accuracy, review_scores_cleanliness, review_scores_checkin,review_scores_communication, review_scores_location, review_scores_value
-  
+
 ![image](https://github.com/Hayoung-Zoe-Kim/Austin-Airbnb-Analysis/blob/main/dealing_with_missingvalues.png)
 
-[code]
+[code](https://github.com/Hayoung-Zoe-Kim/Austin-Airbnb-Analysis/blob/main/Data%20Cleaning_.ipynb)
+
+
   
 #### EDA
 - “ Zip Code ” plays a significant role in our dataset. The exploratory data analysis (EDA) has revealed variations in the distribution of various features across different zip codes.
 - Utilized 'Zip Code' as the main filter for constructing queries and driving visualizations
+  
 ![image](https://github.com/Hayoung-Zoe-Kim/Austin-Airbnb-Analysis/blob/main/eda_zipcode.png)
 
 #### Data Structuring and Managing in SQL and MongoDB(noSQL) 
 - SQL querying
+  
 ![image](https://github.com/Hayoung-Zoe-Kim/Austin-Airbnb-Analysis/blob/main/sql_query.png)
 
-- MongoDB 
+- MongoDB
+  
 ![image](https://github.com/Hayoung-Zoe-Kim/Austin-Airbnb-Analysis/blob/main/mongoDB_collection.png)
 
 #### Visualization
 - Tableau [Dashboard](https://public.tableau.com/app/profile/hayoung7844/viz/AustinAirbnbMarketOverview/Dashboard1) |  [Dashboard2](https://public.tableau.com/app/profile/hayoung7844/viz/AustinAirbnbChoroplethMaps/Dashboard2)
+
 ![image](https://github.com/Hayoung-Zoe-Kim/Austin-Airbnb-Analysis/blob/main/Tableau_dashboard_.png)
+
 
 ![image](https://github.com/Hayoung-Zoe-Kim/Austin-Airbnb-Analysis/blob/main/Tableau_choropleth.png)
 
 - MongoDB Charts [Dashboard](https://charts.mongodb.com/charts-project-0-ylnjm/public/dashboards/9576c28a-2cf3-4cef-abbd-2658a5eae146)
+
 ![image](https://github.com/Hayoung-Zoe-Kim/Austin-Airbnb-Analysis/blob/main/MongoDBCharts.png)
 
 
