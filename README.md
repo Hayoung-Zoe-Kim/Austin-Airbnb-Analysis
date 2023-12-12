@@ -19,7 +19,7 @@ Initially, we extracted perfume reviews through web scraping. We then selected l
 - Key Columns: Zip codes, room types, price, availability, superhost status, reviews
 
 ## Highlights of Analysis
-#### Data Cleaning  
+#### Data Cleaning  [code](https://github.com/Hayoung-Zoe-Kim/Austin-Airbnb-Analysis/blob/main/Data%20Cleaning_.ipynb)
 - Drop the columns that are slightly off-topic from our analysis focus
   
 ![image](https://github.com/Hayoung-Zoe-Kim/Austin-Airbnb-Analysis/blob/main/drop_columns.png)
@@ -35,11 +35,9 @@ Initially, we extracted perfume reviews through web scraping. We then selected l
 
 ![image](https://github.com/Hayoung-Zoe-Kim/Austin-Airbnb-Analysis/blob/main/dealing_with_missingvalues.png)
 
-[code](https://github.com/Hayoung-Zoe-Kim/Austin-Airbnb-Analysis/blob/main/Data%20Cleaning_.ipynb)
-
 
   
-#### EDA
+#### EDA [code](https://github.com/Hayoung-Zoe-Kim/Austin-Airbnb-Analysis/blob/main/EDA.ipynb)
 - “ Zip Code ” plays a significant role in our dataset. The exploratory data analysis (EDA) has revealed variations in the distribution of various features across different zip codes.
 - Utilized 'Zip Code' as the main filter for constructing queries and driving visualizations
   
@@ -53,6 +51,7 @@ Initially, we extracted perfume reviews through web scraping. We then selected l
 - MongoDB
   
 ![image](https://github.com/Hayoung-Zoe-Kim/Austin-Airbnb-Analysis/blob/main/mongoDB_collection.png)
+
 
 #### Visualization
 - Tableau [Dashboard](https://public.tableau.com/app/profile/hayoung7844/viz/AustinAirbnbMarketOverview/Dashboard1) |  [Dashboard2](https://public.tableau.com/app/profile/hayoung7844/viz/AustinAirbnbChoroplethMaps/Dashboard2)
