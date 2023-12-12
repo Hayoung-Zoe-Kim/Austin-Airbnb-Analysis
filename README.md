@@ -47,13 +47,13 @@ Initially, we extracted perfume reviews through web scraping. We then selected l
 ![image](https://github.com/Hayoung-Zoe-Kim/Austin-Airbnb-Analysis/blob/main/mongoDB_collection.png)
 
 #### Visualization
-![image](https://github.com/Hayoung-Zoe-Kim/Austin-Airbnb-Analysis/blob/main/Tableau_dashboard.png)
+- Tableau Dashboard  [Dashboard](https://public.tableau.com/app/profile/hayoung7844/viz/AustinAirbnb_17021920900580/Dashboard1) |  [Dashboard2](https://public.tableau.com/app/profile/hayoung7844/viz/AustinAirbnb_17021920900580/Dashboard2)
+![image](https://github.com/Hayoung-Zoe-Kim/Austin-Airbnb-Analysis/blob/main/Tableau_dashboard.png)(https://public.tableau.com/app/profile/hayoung7844/viz/AustinAirbnb_17021920900580/Dashboard1)
 
-[Dashboard](https://public.tableau.com/app/profile/hayoung7844/viz/AustinAirbnb_17021920900580/Dashboard1)
+![image](https://github.com/Hayoung-Zoe-Kim/Austin-Airbnb-Analysis/blob/main/Tableau_choropleth.png)
 
+- MongoDB Charts Dashboard [Dashboard](https://charts.mongodb.com/charts-project-0-ylnjm/public/dashboards/9576c28a-2cf3-4cef-abbd-2658a5eae146)
 ![image](https://github.com/Hayoung-Zoe-Kim/Austin-Airbnb-Analysis/blob/main/MongoDBCharts_dashboard.png)
-
-[Dashboard](https://charts.mongodb.com/charts-project-0-ylnjm/public/dashboards/9576c28a-2cf3-4cef-abbd-2658a5eae146)
 
 
 ## Conclusion
