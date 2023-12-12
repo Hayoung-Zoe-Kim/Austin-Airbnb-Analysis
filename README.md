@@ -49,21 +49,21 @@ Initially, we extracted perfume reviews through web scraping. We then selected l
 #### Visualization
 ![image](https://github.com/Hayoung-Zoe-Kim/Austin-Airbnb-Analysis/blob/main/Tableau_dashboard.png)
 
-[Dashboard]
+[Dashboard](https://public.tableau.com/app/profile/hayoung7844/viz/AustinAirbnb_17021920900580/Dashboard1)
 
-![image](https://github.com/Hayoung-Zoe-Kim/Austin-Airbnb-Analysis/blob/main/MongoDB Charts_dashboard.png)
+![image](https://github.com/Hayoung-Zoe-Kim/Austin-Airbnb-Analysis/blob/main/MongoDBCharts_dashboard.png)
 
-[Dashboard]
-
+[Dashboard](https://charts.mongodb.com/charts-project-0-ylnjm/public/dashboards/9576c28a-2cf3-4cef-abbd-2658a5eae146)
 
 
 ## Conclusion
-- The Word2Vec model facilitated a nuanced understanding of user preferences, connecting scent descriptions and review texts with user sentiments to create a personalized recommendation experience.
+- By strategically deploying SQL for structured, quantitative data and NoSQL for the unstructured, qualitative parts of our dataset, we achieved a more nuanced and comprehensive analysis. This hybrid approach allowed us to maximize the strengths of both relational and non-relational databases, ensuring high efficiency and deeper insights.
+
+- In Southwest Austin, Superhosts typically charge more for their Airbnb listings than their non-Superhost counterparts. This indicates that possessing Superhost status may enable hosts to warrant and demand somewhat higher prices.
+
+- Superhosts show a smaller range in their listings' average ratings, from 4.32 to 4.98, compared to non-Superhosts, who range from 3.38 to 4.96. However, in neighborhoods like 78726 and 78746, non-Superhosts sometimes have higher average ratings than Superhosts, suggesting that while Superhosts are generally expected to offer higher quality, non-Superhosts can also achieve excellent ratings with outstanding services.
+
   
-- The dual-phase approach of the project shed light on a compelling aspect of the fragrance market: While the allure of obscure brands is undeniable for certain attributes, it is remarkable to observe that many affordable yet desirable perfumes originate from well-known houses. This suggests a complex interplay between brand perception and product quality, highlighting an opportunity for small to medium fragrance businesses to capitalize on their unique offerings.
-
-- The value of our Long-Tail Perfume Recommendation System is that by bridging the gap between accessibility and exploration, it stands as a beacon for discovery in the vast ocean of fragrances, guiding consumers to their perfect scent match while supporting the growth of diverse perfume brands.
-
 ## ⭐️ Applicable Business Use Cases:
 
 #### Niche Market Targeting:
@@ -74,6 +74,3 @@ Initially, we extracted perfume reviews through web scraping. We then selected l
 
 #### Inventory Management:
 - Retailers can use the system's insights to optimize their inventory, reducing stock of less popular items and focusing on what their customers are most likely to purchase. Moreover, insights from the recommendation system can assist in predicting future trends and demand for certain fragrances, aiding in production planning and inventory forecasting.
-
-## More
-Full Code : https://github.com/Hayoung-Zoe-Kim/Perfume-Recommendation-System/blob/main/0_Final_Long%20Tail%20Perfume%20Recommendation%20System.ipynb
