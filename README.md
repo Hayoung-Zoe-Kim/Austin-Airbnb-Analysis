@@ -76,11 +76,11 @@ Initially, we extracted perfume reviews through web scraping. We then selected l
   
 ## ⭐️ Applicable Business Use Cases:
 
-#### Niche Market Targeting:
-- Boutique Retailers can use the system to stock inventory that aligns with the unique preferences of their customer base, helping them to differentiate from larger competitors.
+#### Sustained Dynamic Pricing Strategies:
+- Assuming the project evolves beyond the prototype phase with sustained automatic data pipelines and lakes, hosts can utilize ongoing trends analysis in zip code-specific data, such as average prices and ratings. This enables the implementation of dynamic pricing models that accurately reflect the desirability and competition within different areas. Superhosts, in particular, could leverage their status to adjust prices competitively in regions where they typically command a premium, while non-Superhosts might concentrate on price optimization in neighborhoods where their ratings outperform the average.
 
-#### Brand Development: 
-- Emerging and indie fragrance brands can use insights from the system to position their products in the market effectively, focusing on untapped customer segments. Also, the system can help identify scent preferences and trends, which can be used to inform marketing campaigns and product development strategies.
+#### Competitive Analysis and Market Positioning:
+- The methodology used to differentiate between Superhosts and non-Superhosts in terms of pricing and ratings can be employed in a broader business context for competitive analysis. Companies can assess their position in the market compared to competitors, adjust their strategies to highlight their strengths, and address areas of weakness, enhancing their overall market positioning.
 
-#### Inventory Management:
-- Retailers can use the system's insights to optimize their inventory, reducing stock of less popular items and focusing on what their customers are most likely to purchase. Moreover, insights from the recommendation system can assist in predicting future trends and demand for certain fragrances, aiding in production planning and inventory forecasting.
+#### Value Proposition Enhancement:
+- Insights into what drives higher ratings and customer satisfaction can inform businesses on how to enhance their value propositions. In industries like tourism, real estate, or any service-based sector, understanding the attributes that correlate with higher customer approval can guide improvements in service delivery and customer experience, akin to enhancing an Airbnb listing to achieve Superhost status.
