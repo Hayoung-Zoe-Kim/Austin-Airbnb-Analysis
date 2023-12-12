@@ -19,7 +19,7 @@ Initially, we extracted perfume reviews through web scraping. We then selected l
 - Key Columns: Zip codes, room types, price, availability, superhost status, reviews
 
 ## Highlights of Analysis
-#### Data Cleaning  [code](https://github.com/Hayoung-Zoe-Kim/Austin-Airbnb-Analysis/blob/main/Data%20Cleaning_.ipynb)
+#### Data Cleaning  [[code]](https://github.com/Hayoung-Zoe-Kim/Austin-Airbnb-Analysis/blob/main/Data%20Cleaning_.ipynb)
 - Drop the columns that are slightly off-topic from our analysis focus
   
 ![image](https://github.com/Hayoung-Zoe-Kim/Austin-Airbnb-Analysis/blob/main/drop_columns.png)
@@ -37,7 +37,7 @@ Initially, we extracted perfume reviews through web scraping. We then selected l
 
 
   
-#### EDA [code](https://github.com/Hayoung-Zoe-Kim/Austin-Airbnb-Analysis/blob/main/EDA.ipynb)
+#### EDA [[code]](https://github.com/Hayoung-Zoe-Kim/Austin-Airbnb-Analysis/blob/main/EDA.ipynb)
 - “ Zip Code ” plays a significant role in our dataset. The exploratory data analysis (EDA) has revealed variations in the distribution of various features across different zip codes.
 - Utilized 'Zip Code' as the main filter for constructing queries and driving visualizations
   
