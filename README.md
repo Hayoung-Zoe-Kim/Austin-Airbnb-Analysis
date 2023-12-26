@@ -11,10 +11,10 @@ The aim of the project is to leverage SQL, noSQL database as well as Visualizati
 - Identifies market gaps and opportunities, helping hosts to optimize their offerings for better revenue potential.
 
 ## Methodology
-Initially, we extracted perfume reviews through web scraping. We then selected long-tail perfumes with proven quality, indicated by overall ratings exceeding 4.5 out of 5. Based on the scent descriptions and the review texts, we calculated a comprehensive evaluation score for each review. This was achieved by multiplying the similarity and sentiment scores derived from the reviews against a simulated user profile detailing scent preferences, usage occasions, and price range. Finally, employing a Word2Vec model, our recommendation system generated a list of high-scoring long-tail perfumes.
+Our analysis of the Austin Airbnb market utilized a blend of SQL for structured data and MongoDB for unstructured data. We began with manual data retrieval, downloading CSV files and cleaning the data using Python. Focusing on Austin, we executed a prototype analysis that differentiated non-descriptive data (like price and ratings), stored in Oracle SQL, from descriptive data (like reviews), managed with MongoDB. This approach allowed for effective querying and organization, culminating in a nuanced analysis visualized through tools like Tableau and MongoDB Charts to aid new hosts in strategic decision-making.
 
 #### Data Source & Preprocessing
-- source: https://www.fragrancex.com/shopping/type/perfume](http://insideairbnb.com/get-the-data/
+- source: http://insideairbnb.com/get-the-data/  - Dec 2022, Mar 2023, Jun 2023, Sep 2023 
 - Data: about 13,500 listings information +  655,000 review data
 - Key Columns: Zip codes, room types, price, availability, superhost status, reviews
 
